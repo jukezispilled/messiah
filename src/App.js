@@ -68,13 +68,13 @@ function App() {
       </div>
       <div className="absolute bottom-5 left-5 flex flex-row z-30">
         <a
-          href="https://x.com/"
+          href="https://x.com/savioronsol"
           className="p-1 hover:scale-110 transition ease-in-out duration-200"
         >
           <img src={Xlogo} alt="Xlogo" className="size-10 md:size-12 rounded-md" />
         </a>
         <a
-          href="https://t.me/"
+          href="https://t.me/savioronsol"
           className="p-1 hover:scale-110 transition ease-in-out duration-200"
         >
           <img src={TG} alt="Tg logo" className="size-10 md:size-12" />
