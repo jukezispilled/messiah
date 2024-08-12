@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.stroke {
+  text-stroke: 2px #FFDC22;
+  -webkit-text-stroke: 2px #FFDC22; /* For Safari */
+}
