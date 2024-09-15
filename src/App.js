@@ -75,7 +75,7 @@ function App() {
         <source src={`${process.env.PUBLIC_URL}/vid.mp4`} type="video/mp4" />
       </video>
       <div className='absolute top-0 w-screen bg-sky-400 text-center font-custom text-[10px] md:text-base text-white py-1'>
-        CA: patience...
+        CA: 4yMeSLJvt9f9PpC1rLFsihS76u6JGasc7vwPfZcJpump
       </div>
       <div className="flex absolute bottom-4 right-4">
         <a href="https://x.com/savioronsolana" className='transition ease-in-out duration-150'>
