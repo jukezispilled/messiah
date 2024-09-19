@@ -25,13 +25,12 @@ function App() {
     <div className="h-screen w-screen bg-cover bg-center flex justify-center" style={{ backgroundImage: "url('/bg.jpg')" }}>
       {modalVisible && (
         <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
-          <div className="p-8 bg-yellow-400 text-center text-white">
-            <h2 className="text-2xl md:text-5xl font-bold mb-4 text-black font-custom">ready to meet your maker?</h2>
+          <div className="">
             <button
               onClick={handleEnter}
-              className="px-6 py-3 bg-black text-yellow-400 text-xl md:text-3xl font-semibold md:hover:bg-yellow-500 transition duration-300 font-custom"
+              className="px-6 py-3 bg-yellow-400 text-2xl md:text-5xl font-semibold md:hover:bg-yellow-500 transition duration-300 font-custom"
             >
-              yes
+              save my sol
             </button>
           </div>
         </div>
