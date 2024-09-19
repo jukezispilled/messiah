@@ -48,7 +48,7 @@ function App() {
       >
         <source src={`${process.env.PUBLIC_URL}/vid.mp4`} type="video/mp4" />
       </video>
-      <div className='absolute top-0 w-screen bg-yellow-400 text-center font-custom text-[10px] md:text-base text-white py-1'>
+      <div className='absolute top-0 w-screen bg-yellow-400 text-center font-custom text-[10px] md:text-base py-1'>
         CA: updating...
       </div>
       <div className="flex absolute bottom-4 right-4">
