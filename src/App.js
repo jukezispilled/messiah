@@ -18,13 +18,13 @@ function App() {
   // Animation properties for mes.png
   const imageVariants = {
     hidden: { y: '100vh' }, // Start below the screen
-    visible: { y: '0', transition: { duration: 2.5 } }, // Float up to the screen
+    visible: { y: '0', transition: { duration: 4.5 } }, // Float up to the screen
   };
 
   return (
     <div className="h-screen w-screen bg-cover bg-center flex justify-center" style={{ backgroundImage: "url('/bg.jpg')" }}>
       {modalVisible && (
-        <div className="fixed inset-0 bg-yellow-300 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
           <div className="p-8 bg-white text-center text-white">
             <h2 className="text-2xl md:text-5xl font-bold mb-4 text-black font-custom">ready to meet your maker?</h2>
             <button
